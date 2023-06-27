@@ -1,0 +1,35 @@
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+#root{
+  height: 100%;
+  width: 100%;
+}
+
+.main-container {
+  background-color: #696B6A;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.nav{
+  margin: 4rem 6.563rem; 
+  
+
+}
+
+.logo-box{
+  max-height: 17.75rem;
+  max-width: 51.875rem;
+  position: relative;
+}
+
+.logo{
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
