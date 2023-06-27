@@ -3,6 +3,10 @@ body {
   width: 100vw;
 }
 
+p, h1, h2, h3, h4, h5, h6, a{
+  color: white;
+}
+
 #root{
   height: 100%;
   width: 100%;
@@ -18,8 +22,6 @@ body {
 
 .nav{
   margin: 4rem 6.563rem; 
-  
-
 }
 
 .logo-box{
@@ -32,4 +34,34 @@ body {
   position: relative;
   height: 100%;
   width: 100%;
+}
+
+.content{
+  display: flex;
+  margin: 1rem 6.563rem;
+  flex-direction: row;
+  max-width: 60rem;
+  justify-content: space-between;
+}
+
+.content-left-column{
+  display: flex;
+  position: relative;
+  width: 100%;
+}
+
+.content-right-column{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.link{
+  color: white;
+  font-weight: 500;
+  position: relative;
+
+}
+
+.user-group{
+  max-width: 18rem;
 }
