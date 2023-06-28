@@ -3,11 +3,9 @@ import React from "react"
 function Footer() {
     return (
         <footer class="footer">
-
-            <div class="footer-box">
-                <p>© vgra.de, inc.  2023</p>
+            <div className="background-fade">
+                <img src="./images/vgrade-background.png" className="background-image"></img>
             </div>
-
         </footer>
     );
 }

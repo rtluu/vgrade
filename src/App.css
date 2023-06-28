@@ -20,8 +20,12 @@ p, h1, h2, h3, h4, h5, h6, a{
   width: 100%;
 }
 
+/* Nav */
+
 .nav{
   margin: 4rem 6.563rem; 
+  position: relative;
+  z-index: 2;
 }
 
 .logo-box{
@@ -36,32 +40,88 @@ p, h1, h2, h3, h4, h5, h6, a{
   width: 100%;
 }
 
+/* Content */
+
 .content{
   display: flex;
   margin: 1rem 6.563rem;
+  flex-direction: column;
+  max-width: 56.25rem;
+  justify-content: space-between;
+  position: relative;
+  z-index: 1;
+}
+
+.hero-box{
+  display: flex;
   flex-direction: row;
-  max-width: 60rem;
+  position: relative;
   justify-content: space-between;
 }
 
-.content-left-column{
+.hero-left{
   display: flex;
   position: relative;
   width: 100%;
+  position: relative;
+
 }
 
-.content-right-column{
+.hero-cta{
+  margin: 0.625rem;
+}
+
+.hero-right{
   display: flex;
+  flex-direction: column;
   justify-content: flex-end;
+  position: relative;
+  width: 26.50rem;
 }
 
 .link{
   color: white;
   font-weight: 500;
   position: relative;
-
+  padding: 0.625rem;
 }
 
 .user-group{
-  max-width: 18rem;
+  padding: 0.625rem;
+}
+
+/* Footer */
+
+.footer{
+  position: relative;
+  z-index: 0;
+}
+
+.footer-box{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  justify-content: space-between;
+}
+
+.connect-box{
+  display: flex;
+  flex-direction: row;
+  width: 18rem;
+}
+
+.copyright{
+  padding: 0.625rem;
+}
+
+.social-link{
+  padding: 0.625rem;
+}
+
+
+.background-fade{
+  position: fixed;
+  bottom: 0;
+  height: auto;
+  width: 100%;
 }
