@@ -5,7 +5,7 @@ function Content() {
             <div className="content">
                  <div className="hero-box">
                     <div className="hero-left">
-                        <p>make a living from your virtual worlds</p>
+                        <p className="hero-cta">make a living from your virtual worlds</p>
                     </div>
                     <div className="hero-right">
                         <a className="link" href="mailto:osebosebo@gmail.com"><p>collaborate with us</p></a>
