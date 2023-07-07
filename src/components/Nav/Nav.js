@@ -5,7 +5,7 @@ function Nav() {
         <nav className="nav">
             <div className="logo-box">
                 <a href="/">
-                    <img className="logo" src="./images/vgrade-logo.png"></img>
+                    <img alt="vgrade logo" className="logo" src="./images/vgrade-logo.png"></img>
                 </a>
             </div>
         </nav>

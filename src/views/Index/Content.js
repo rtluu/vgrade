@@ -16,8 +16,8 @@ function Content() {
                 <div class="footer-box">
                     <p className="copyright">© vgra.de, inc.  2023</p>
                     <div className="connect-box">
-                        <a className="social-link"><p>twitter</p></a>
-                        <a className="social-link"><p>email</p></a>
+                        <a href="/" className="social-link"><p>twitter</p></a>
+                        <a href="/" className="social-link"><p>email</p></a>
                     </div>
                 </div>
             </div>
