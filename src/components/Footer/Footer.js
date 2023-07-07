@@ -4,7 +4,7 @@ function Footer() {
     return (
         <footer class="footer">
             <div className="background-fade">
-                <img alt="background image" src="./images/vgrade-background.png" className="background-image"></img>
+                <img alt="background" src="./images/vgrade-background.png" className="background-image"></img>
             </div>
         </footer>
     );
